@@ -4,16 +4,31 @@ import os
 
 app = Flask(__name__)
 
-# Configuración de la base de datos desde variables de entorno
-server = os.getenv("SQL_SERVER")
-database = os.getenv("SQL_DATABASE")
-username = os.getenv("SQL_USERNAME")
-password = os.getenv("SQL_PASSWORD")
-driver = "{ODBC Driver 17 for SQL Server}"
+server = "tcp:adminestudiantes1.database.windows.net,1433"
+database = "databasepf1"
+username = "adminpfestudiante"
+password = "Alpha123@"
+driver = "{ODBC Driver 18 for SQL Server}"
+
+print("Server:", os.getenv("SQL_SERVER"))
+print("Database:", os.getenv("SQL_DATABASE"))
+print("Username:", os.getenv("SQL_USERNAME"))
+print("Password:", os.getenv("SQL_PASSWORD"))
+
 
 connection_string = f"DRIVER={driver};SERVER={server};DATABASE={database};UID={username};PWD={password}"
 conn = pyodbc.connect(connection_string)
 cursor = conn.cursor()
+
+@app.route("/env")
+def check_env():
+    return {
+        "server": os.getenv("SQL_SERVER"),
+        "database": os.getenv("SQL_DATABASE"),
+        "username": os.getenv("SQL_USERNAME"),
+        "password": os.getenv("SQL_PASSWORD"),
+    }
+
 
 # Crear tabla si no existe (una sola vez)
 cursor.execute("""
