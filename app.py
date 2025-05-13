@@ -4,11 +4,18 @@ import os
 
 app = Flask(__name__)
 
-server = "tcp:adminestudiantes1.database.windows.net,1433"
-database = "databasepf1"
-username = "adminpfestudiante"
-password = "Alpha123@"
+# server = "tcp:adminestudiantes1.database.windows.net,1433"
+# database = "databasepf1"
+# username = "adminpfestudiante"
+# password = "Alpha123@"
+# driver = "{ODBC Driver 18 for SQL Server}"
+
+server = os.getenv("SQL_SERVER")
+database = os.getenv("SQL_DATABASE")
+username = os.getenv("SQL_USERNAME")
+password = os.getenv("SQL_PASSWORD")
 driver = "{ODBC Driver 18 for SQL Server}"
+
 
 print("Server:", os.getenv("SQL_SERVER"))
 print("Database:", os.getenv("SQL_DATABASE"))
@@ -17,6 +24,8 @@ print("Password:", os.getenv("SQL_PASSWORD"))
 
 
 connection_string = f"DRIVER={driver};SERVER={server};DATABASE={database};UID={username};PWD={password}"
+# connection_string = f"DRIVER={{ODBC Driver 18 for SQL Server}};SERVER=tcp:{os.getenv('SQL_SERVER')},1433;DATABASE={os.getenv('SQL_DATABASE')};UID={os.getenv('SQL_USERNAME')};PWD={os.getenv('SQL_PASSWORD')};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30"
+
 conn = pyodbc.connect(connection_string)
 cursor = conn.cursor()
 
