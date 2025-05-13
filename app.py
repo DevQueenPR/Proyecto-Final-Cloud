@@ -4,17 +4,17 @@ import os
 
 app = Flask(__name__)
 
-# server = os.getenv("SQL_SERVER")
-# database = os.getenv("SQL_DATABASE")
-# username = os.getenv("SQL_USERNAME")
-# password = os.getenv("SQL_PASSWORD")
-# driver = "{ODBC Driver 18 for SQL Server}"
-
-server = "tcp:adminestudiantes1.database.windows.net,1433"
-database = "databasepf1"
-username = "adminpfestudiante"
-password = "Alpha123@"
+server = os.getenv("SQL_SERVER")
+database = os.getenv("SQL_DATABASE")
+username = os.getenv("SQL_USERNAME")
+password = os.getenv("SQL_PASSWORD")
 driver = "{ODBC Driver 18 for SQL Server}"
+
+# server = "tcp:adminestudiantes1.database.windows.net,1433"
+# database = "databasepf1"
+# username = "adminpfestudiante"
+# password = "Alpha123@"
+# driver = "{ODBC Driver 18 for SQL Server}"
 
 print("Server:", os.getenv("SQL_SERVER"))
 print("Database:", os.getenv("SQL_DATABASE"))
