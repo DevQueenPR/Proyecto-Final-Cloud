@@ -93,12 +93,12 @@ Agrega capturas mostrando:
 ---
 
 ## ✅ Checklist Final
-- [ ] App funcional y desplegada
-- [ ] Servicios gratuitos utilizados correctamente
-- [ ] Diagrama de arquitectura incluido
+- [✅] App funcional y desplegada
+- [✅] Servicios gratuitos utilizados correctamente
+- [✅] Diagrama de arquitectura incluido
 - [ ] Documentación clara y completa
 - [ ] Costos estimados incluidos
-- [ ] Repositorio disponible en GitHub
+- [✅] Repositorio disponible en GitHub
 - [ ] Lecciones aprendidas y reflexión final escritas
 
 
@@ -106,7 +106,7 @@ Agrega capturas mostrando:
 
 ## 🧑‍💻 Integrantes del Equipo
 - Génesis Ojeda - R00581877 - genesismojeda@gmail.com
-- Eliel Feliciando Canals 
+- Eliel Feliciano Canals - R00632783 - efeliciano2783@arecibointer.edu
 - Abimael Santa Cruz - R00627260 - abimael.santa1@gmail.com
 
 
