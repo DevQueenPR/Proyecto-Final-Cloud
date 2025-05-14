@@ -1,13 +1,22 @@
-# Habit Task- a task manager
+# App Task Go
+
+---
+
+## 🧑‍💻 Integrantes del Equipo
+- Génesis Ojeda - R581877 - genesismojeda@gmail.com
+- Elier -  - 
+- Abimael Santa Cruz - R00627260 - abimael.santa1@gmail.com
+
+---
 ## 🎯 Descripción General
 - ¿Qué hace?
     - Gestiona y maneja diferentes tareas a completar. Donde es el usuario quien define sus tareas,
      establece su estado una vez completadas y le permite eliminarlas.   
 - ¿A quién va dirigida?
-    - Esta aplicacion va dirigida tanto a estudiantes o a cualquier otro persona en donde se dia a dia 
-    necesite establer un listado de deberes o tareas a completar.
+    - Esta aplicación va dirigida tanto a estudiantes o a cualquier persona que necesite establer
+     un listado de deberes o tareas a completar.
 - ¿Qué problema resuelve o qué funcionalidad ofrece?
-    - Ofrece una solucion a la desorganizacion y manejo de tareas. Mejora la visualizacion del desgloce 
+    - Ofrece una solución a la desorganización y manejo de tareas. Mejora la visualización del desgloce 
     de tareas ante una gran carga de deberes a realizar.
 
 ---
@@ -38,13 +47,8 @@
 6. Accede a `http://127.0.0.1:5000`
 
 ### 2. Configuración en Azure
-- Pasos realizados en Azure Portal
-- Configuración del App Service
-- Variables de entorno definidas (nombres, no valores)
-- Configuración del SQL Server
-- Contenedores, Blob, tablas, etc. (si aplica)
-
-
+- **Configuración del App Service**
+    
 ---
 
 ## 💻 Enlace a la Aplicación Desplegada
@@ -63,15 +67,35 @@ Incluye una captura de pantalla o PDF del cálculo.
 Agrega capturas mostrando:
 - Los recursos creados (App Service, SQL Database, Storage, etc.)
 - Configuraciones clave
-- Diagnóstico o panel de monitoreo (opcional)
+- **Configuración del SQL Server**
+  
+    ### Creación de SQL Database  
+    ![Creación de SQL DB](./images/2.1-CreateSqlDB.jpg)
+
+    ### Detalles del Servidor  
+    ![Server Details](./images/2.2-ServerDetails.jpg)
+
+    ### Auth/Admin Credentials  
+    ![Auth/Admin Credentials](./images/2.3-AuthAdminCredentials.jpg)
+
+    ### DB Deployment  
+    ![DB Deployment](./images/2.4-DBDeployment.jpg)
+
+    ### Database & SQL Server INFO  
+    ![DB Info 1](./images/2.5%20DB%20Basic%20Info.jpg)  
+    ![DB Info 2](./images/2.6-ServerInfo.jpg)
+
 
 ---
 
 ## 📘 Lecciones Aprendidas
 - ¿Qué retos enfrentaron y cómo los resolvieron?
-    -
+    - El principal reto de este proyecto fue el manejo de la plataforma Azure y su portal en la creación
+    de los distintos servicios. Al ser un proyecto Capstone fuimos trabajando estas destrezas a lo largo del 
+    curso por lo que cuando realizamos las configuraciones necesarias para dichos servicios ya se habia resolvido gran parte del reto.
 - ¿Qué aprendieron sobre trabajar con servicios cloud?
-    -
+    - Principalmente aprendimos de primera mano la versatilidad de esta herramienta y como cada servicio está relacionado y se conecta
+    entre sí, mediante los diferentes protocolos. Tanto en una misma red o desde otras redes externas conformando el ecosistema de la Nube. 
 - ¿Qué mejorarían en una próxima versión del proyecto?
     -
 
@@ -93,21 +117,15 @@ Agrega capturas mostrando:
 ---
 
 ## ✅ Checklist Final
-- [ ] App funcional y desplegada
-- [ ] Servicios gratuitos utilizados correctamente
-- [ ] Diagrama de arquitectura incluido
+- [✅] App funcional y desplegada
+- [✅] Servicios gratuitos utilizados correctamente
+- [✅] Diagrama de arquitectura incluido
 - [ ] Documentación clara y completa
 - [ ] Costos estimados incluidos
-- [ ] Repositorio disponible en GitHub
+- [✅] Repositorio disponible en GitHub
 - [ ] Lecciones aprendidas y reflexión final escritas
 
 
----
-
-## 🧑‍💻 Integrantes del Equipo
-- Génesis Ojeda - R581877 - genesismojeda@gmail.com
-- Elier -  - 
-- Abimael Santa Cruz - R00627260 - abimael.santa1@gmail.com
 
 
 ---
