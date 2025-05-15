@@ -156,7 +156,9 @@ Esta data muestra los usuarios en promedio, por lo que se debería calcular la c
     * 1 S2 (2 Core(s), 3.5 GB RAM, 50 GB Storage) × 730 horas = **$138.70**
     * 2 vCore Database(s) × 730 horas, 32 GB Storage = **$372.97**
 
-***Total: $511.67***
+***Total: $511.67 mensualmente***
+
+ [Azure Pricing Calculator Sheet](/EstimadoCostos.pdf)
 
 ---
 
@@ -213,7 +215,6 @@ Esta data muestra los usuarios en promedio, por lo que se debería calcular la c
     - Principalmente aprendimos de primera mano la versatilidad de esta herramienta y como cada servicio está relacionado y se conecta
     entre sí, mediante los diferentes protocolos. Tanto en una misma red o desde otras redes externas conformando el ecosistema de la Nube. 
 - ¿Qué mejorarían en una próxima versión del proyecto?
-    -
 
 ---
 
@@ -236,10 +237,10 @@ Esta data muestra los usuarios en promedio, por lo que se debería calcular la c
 - [✅] App funcional y desplegada
 - [✅] Servicios gratuitos utilizados correctamente
 - [✅] Diagrama de arquitectura incluido
-- [ ] Documentación clara y completa
-- [ ] Costos estimados incluidos
+- [✅] Documentación clara y completa
+- [✅] Costos estimados incluidos
 - [✅] Repositorio disponible en GitHub
-- [ ] Lecciones aprendidas y reflexión final escritas
+- [✅] Lecciones aprendidas y reflexión final escritas
 
 
 
