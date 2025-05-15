@@ -243,13 +243,10 @@ Esta data muestra los usuarios en promedio, por lo que se debería calcular la c
 - [✅] App funcional y desplegada
 - [✅] Servicios gratuitos utilizados correctamente
 - [✅] Diagrama de arquitectura incluido
-- [ ] Documentación clara y completa
-- [ ] Costos estimados incluidos
+- [✅ ] Documentación clara y completa
+- [✅ ] Costos estimados incluidos
 - [✅] Repositorio disponible en GitHub
 - [ ] Lecciones aprendidas y reflexión final escritas
-
-
-
 
 ---
 
