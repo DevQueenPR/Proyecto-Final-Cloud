@@ -213,7 +213,7 @@ Esta data muestra los usuarios en promedio, por lo que se debería calcular la c
     - Principalmente aprendimos de primera mano la versatilidad de esta herramienta y como cada servicio está relacionado y se conecta
     entre sí, mediante los diferentes protocolos. Tanto en una misma red o desde otras redes externas conformando el ecosistema de la Nube. 
 - ¿Qué mejorarían en una próxima versión del proyecto?
-    - Para futuras variaciones a base del proyecto dado, se puede considerar mejorar la experiencia del usuario (UX). Mejorar la interfaz de usuario para expandir su usabilidad y mejorar el rendimiento de la misma debe ser una meta para futuras versiones de este proyecto.
+    - Para futuras variaciones a base del proyecto dado, se puede considerar mejorar la experiencia del usuario (UX). Mejorar la interfaz para los usuarios para expandir su usabilidad y mejorar el rendimiento de la misma debe ser una meta para futuras versiones de este proyecto.
 
 ---
 
