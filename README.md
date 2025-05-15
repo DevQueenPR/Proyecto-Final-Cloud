@@ -47,6 +47,13 @@
 6. Accede a `http://127.0.0.1:5000`
 
 ### 2. Configuración en Azure
+
+1. Dar click en **`Create SQL Database`**, luego se crea un nuevo **`Resource Group`** llamado "BaseDeDatosPF".
+2. Se crea un servidor para la base de datos, se nombra "adminestudiantes1" con su ubicación en "(US) West US 2".
+3. Establecer un método de autenticación que utilice SQL & MS Entra. Su `Server Admin Login` es "adminpfestudiante", su `Password` es "Alpha123@".
+4. El nombre de la base de datos se establece como 'databasepf1'.
+5. Se agregan los `IPv4 Addresses` a la red privada.
+
  ###     Crear el App Service
 
 1. Accede a **`Home > App Services`** en el portal de Azure.
