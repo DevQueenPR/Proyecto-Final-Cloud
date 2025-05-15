@@ -191,7 +191,7 @@ Esta data muestra los usuarios en promedio, por lo que se debería calcular la c
 
     ### Desplego del Web App   
     ![Desplego en Github](./images/3.4-GithubDeployment.png)
-    ![Configuración de Guinicorn](./images/3.5-Guinicorn.png)
+    ![Configuración de Guinicorn](./images/3.5-GuinicornConfig.png)
 
     ### Desplego exitoso  
     ![DB Deployment](./images/3.6-Desplego-Exitoso.png)
