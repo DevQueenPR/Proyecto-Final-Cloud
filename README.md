@@ -170,16 +170,37 @@ Esta data muestra los usuarios en promedio, por lo que se debería calcular la c
     ### Detalles del Servidor  
     ![Server Details](./images/2.2-ServerDetails.jpg)
 
-    ### Auth/Admin Credentials  
+    ### Credentiales de autenticación y admin
     ![Auth/Admin Credentials](./images/2.3-AuthAdminCredentials.jpg)
 
-    ### DB Deployment  
+    ### Desplego de la base de datos  
     ![DB Deployment](./images/2.4-DBDeployment.jpg)
 
-    ### Database & SQL Server INFO  
+    ### Información de la base de datos y servidor de SQL    
     ![DB Info 1](./images/2.5%20DB%20Basic%20Info.jpg)  
     ![DB Info 2](./images/2.6-ServerInfo.jpg)
 
+- **Configuración del Web App**
+  
+    ### Creación de Web App  
+    ![Creación de Web App-Datos generales](./images/3.1-CreateWebApp.png)
+    ![Creación de Web App-Plan de pago](./images/3.2-CreateWebApp.png)
+
+    ### Variables de Entorno 
+    ![Variables de Entorno](./images/3.3-VariablesDeEntorno.png)
+
+    ### Desplego del Web App   
+    ![Desplego en Github](./images/3.4-GithubDeployment.png)
+    ![Configuración de Guinicorn](./images/3.5-Guinicorn.png)
+
+    ### Desplego exitoso  
+    ![DB Deployment](./images/3.6-Desplego-Exitoso.png)
+
+    ### Web App   
+    ![Web App](./images/3.7-WebApp.png)  
+
+    ### Información del Web App   
+    ![Información del Web App](./images/3.8-InfoWebapp.png)  
 
 ---
 
