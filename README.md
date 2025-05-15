@@ -46,7 +46,7 @@
 5. Ejecuta: `python app.py`
 6. Accede a `http://127.0.0.1:5000`
 
-### 2. Configuración en Azure
+### 2. Configuración de la Base de Datos
 
 1. Dar click en **`Create SQL Database`**, luego se crea un nuevo **`Resource Group`** llamado "BaseDeDatosPF".
 2. Se crea un servidor para la base de datos, se nombra "adminestudiantes1" con su ubicación en "(US) West US 2".
