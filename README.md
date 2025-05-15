@@ -222,6 +222,10 @@ Esta data muestra los usuarios en promedio, por lo que se debería calcular la c
 - ¿Qué mejorarían en una próxima versión del proyecto?
     - Para futuras variaciones a base del proyecto dado, se puede considerar mejorar la experiencia del usuario (UX). Mejorar la interfaz para los usuarios para expandir su usabilidad y mejorar el rendimiento de la misma debe ser una meta para futuras versiones de este proyecto.
 
+## 🌟 Reflexión
+
+- El proceso de trabajo en equipo resaltó las fortalezas y debilidades de cada miembro del grupo. Cada integrante ofreció su experiencia para completar el mismo. La colaboración mostrada durante el desenlace del desarrollo de la aplicación, tanto en el repositorio como en los servicios de Azure, demuestra como la combinación de diferentes puntos de vista pueden dar fruto a un producto funcional, altamente documentado y accesible para una variedad de usuarios.  
+
 ---
 
 ## 📚 Repositorio del Código
@@ -243,10 +247,10 @@ Esta data muestra los usuarios en promedio, por lo que se debería calcular la c
 - [✅] App funcional y desplegada
 - [✅] Servicios gratuitos utilizados correctamente
 - [✅] Diagrama de arquitectura incluido
-- [✅ ] Documentación clara y completa
-- [✅ ] Costos estimados incluidos
+- [✅] Documentación clara y completa
+- [✅] Costos estimados incluidos
 - [✅] Repositorio disponible en GitHub
-- [ ] Lecciones aprendidas y reflexión final escritas
+- [✅] Lecciones aprendidas y reflexión final escritas
 
 ---
 
