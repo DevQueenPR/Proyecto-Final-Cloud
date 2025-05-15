@@ -46,7 +46,14 @@
 5. Ejecuta: `python app.py`
 6. Accede a `http://127.0.0.1:5000`
 
-### 2. Configuración en Azure
+### 2. Configuración de la Base de Datos
+
+1. Dar click en **`Create SQL Database`**, luego se crea un nuevo **`Resource Group`** llamado "BaseDeDatosPF".
+2. Se crea un servidor para la base de datos, se nombra "adminestudiantes1" con su ubicación en "(US) West US 2".
+3. Establecer un método de autenticación que utilice SQL & MS Entra. Su `Server Admin Login` es "adminpfestudiante", su `Password` es "Alpha123@".
+4. El nombre de la base de datos se establece como 'databasepf1'.
+5. Se agregan los `IPv4 Addresses` a la red privada.
+
  ###     Crear el App Service
 
 1. Accede a **`Home > App Services`** en el portal de Azure.
@@ -215,6 +222,11 @@ Esta data muestra los usuarios en promedio, por lo que se debería calcular la c
     - Principalmente aprendimos de primera mano la versatilidad de esta herramienta y como cada servicio está relacionado y se conecta
     entre sí, mediante los diferentes protocolos. Tanto en una misma red o desde otras redes externas conformando el ecosistema de la Nube. 
 - ¿Qué mejorarían en una próxima versión del proyecto?
+    - Para futuras variaciones a base del proyecto dado, se puede considerar mejorar la experiencia del usuario (UX). Mejorar la interfaz para los usuarios para expandir su usabilidad y mejorar el rendimiento de la misma debe ser una meta para futuras versiones de este proyecto.
+
+## 🌟 Reflexión
+
+- El proceso de trabajo en equipo resaltó las fortalezas y debilidades de cada miembro del grupo. Cada integrante ofreció su experiencia para completar el mismo. La colaboración mostrada durante el desenlace del desarrollo de la aplicación, tanto en el repositorio como en los servicios de Azure, demuestra como la combinación de diferentes puntos de vista pueden dar fruto a un producto funcional, altamente documentado y accesible para una variedad de usuarios.  
 
 ---
 
@@ -241,9 +253,6 @@ Esta data muestra los usuarios en promedio, por lo que se debería calcular la c
 - [✅] Costos estimados incluidos
 - [✅] Repositorio disponible en GitHub
 - [✅] Lecciones aprendidas y reflexión final escritas
-
-
-
 
 ---
 
