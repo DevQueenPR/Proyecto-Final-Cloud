@@ -47,8 +47,57 @@
 6. Accede a `http://127.0.0.1:5000`
 
 ### 2. Configuración en Azure
-- **Configuración del App Service**
-    
+ ###     Crear el App Service
+
+1. Accede a **`Home > App Services`** en el portal de Azure.
+2. Crea una nueva Web App con los siguientes parámetros:
+
+| Parámetro          | Valor                                |
+|--------------------|------------------------------------|
+| **Subscription**   | Azure for Students                  |
+| **Name**           | `app-tasks-go` (o el que prefieras)|
+| **Runtime**        | Python 3.10                        |
+| **Operating System**| Linux                             |
+| **Region**         | East US 2 (o el más cercano)       |
+| **Pricing Plan**   | Free F1 (Shared infrastructure)    |
+
+3. Guardar los cambios.
+   
+### Configuración de variables de entorno
+
+1. Navega a **`Configuration > Environment Variables`** dentro de tu App Service.
+2. Agrega las siguientes variables:
+
+| Variable       | Valor                                      |
+|----------------|--------------------------------------------|
+| `SQL_SERVER`   | `nombreDeServidor.database.windows.net`    |
+| `SQL_DATABASE` | `NombreDeDB`                               |
+| `SQL_USERNAME` | `Usuario`                                  |
+| `SQL_PASSWORD` | `Password`                                 |
+
+3. Guardar los cambios.
+---
+
+### 3. Configuración del despliegue en Azure
+
+1. Accede a **`Home > App Services > app-tasks-go`** en el portal de Azure.
+
+2. Buscar y abrir la opción **`Deployment Center`**.
+
+3. Conectar tu repositorio de GitHub.
+
+4. Seleccionar la rama **`main`** para el despliegue.
+
+5. Luego, accede a la opción **`Configuration`**.
+
+6. En el campo **`Startup Command`**, ingresar el siguiente comando:
+
+    ```bash
+    gunicorn --bind 0.0.0.0:8000 app:app
+    ```
+
+7. Guardar los cambios y esperar a que el despliegue se complete.
+
 ---
 
 ## 💻 Enlace a la Aplicación Desplegada
